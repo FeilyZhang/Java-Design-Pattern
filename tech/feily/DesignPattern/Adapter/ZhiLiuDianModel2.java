@@ -5,18 +5,18 @@ public class ZhiLiuDianModel2 extends GuiFanAbstract {
     public ZhiLiuDianModel2(JiaoLiuDian jld) {
         this.jld = jld;
     }
-    //Í¨¹ıÔ¼¶¨µÄ·½·¨ÈÃ±Ê¼Ç±¾Ê¹ÓÃÖ±Á÷µç
+    //é€šè¿‡çº¦å®šçš„æ–¹æ³•è®©ç¬”è®°æœ¬ä½¿ç”¨ç›´æµç”µ
     @Override
     public void LapTopUsingElectronic() {
         convert();
     }
 
-    // Ö±Á÷µçÊ¹ÓÃÕß¾¡¿ÉÄÜÍ¨¹ı½Ó¿Úµ÷ÓÃÎÒÃÇÔ¼¶¨µÄ²»»á±ä¶¯µÄ·½·¨£¬¸Ã·½·¨¿ÉÄÜºóĞøÒòÎª¼¼ÊõÉı¼¶¶ø±ä¶¯
+    // ç›´æµç”µä½¿ç”¨è€…å°½å¯èƒ½é€šè¿‡æ¥å£è°ƒç”¨æˆ‘ä»¬çº¦å®šçš„ä¸ä¼šå˜åŠ¨çš„æ–¹æ³•ï¼Œè¯¥æ–¹æ³•å¯èƒ½åç»­å› ä¸ºç›´äº¤æµç”µè½¬æ¢æŠ€æœ¯å‡çº§è€Œå˜åŠ¨
     public void convert() {
         jld.print();
-        System.out.println(ZhiLiuDian.class.getName() + ":½»Á÷µçÄã±ğÏùÕÅ£¬ÂíÉÏ×ª»»ÄãÎªÖ±Á÷µç");
-        System.out.println(ZhiLiuDian.class.getName() + ":ÕıÔÚ×ª»»...");
-        // Ò»ÏµÁĞ×ª»»Âß¼­
-        System.out.println(ZhiLiuDian.class.getName() + ":½»Á÷µçÒÑ¾­×ª»»Îª12·üÌØÖ±Á÷µç£¬±Ê¼Ç±¾ÏÖÔÚ¿ÉÒÔÊ¹ÓÃ");
+        System.out.println(ZhiLiuDian.class.getName() + ":äº¤æµç”µä½ åˆ«åš£å¼ ï¼Œé©¬ä¸Šè½¬æ¢ä½ ä¸ºç›´æµç”µ");
+        System.out.println(ZhiLiuDian.class.getName() + ":æ­£åœ¨è½¬æ¢...");
+        // ä¸€ç³»åˆ—è½¬æ¢é€»è¾‘
+        System.out.println(ZhiLiuDian.class.getName() + ":äº¤æµç”µå·²ç»è½¬æ¢ä¸º12ä¼ç‰¹ç›´æµç”µï¼Œç¬”è®°æœ¬ç°åœ¨å¯ä»¥ä½¿ç”¨");
     }
 }
